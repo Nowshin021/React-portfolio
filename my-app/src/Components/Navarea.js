@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navarea() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="info" variant="light" expand="lg">
     <Container>
       <Navbar.Brand className="nav-item active" href="#home">Blogify</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

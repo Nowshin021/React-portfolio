@@ -5,6 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Welcome from './Components/Welcome';
 import Blogs from './Components/Blogs';
+import Skills from './Components/Skills';
+import SkillName from './Components/SkillName';
+import Contact from './Components/Contact';
+import ContactMeName from './Components/ContactMeName';
 function App() {
   return (
   <section>
@@ -17,12 +21,14 @@ function App() {
       </div>
     </header>
 
-    <div>
+  
       <Welcome></Welcome>
-    </div>
-    <div>
       <Blogs></Blogs>
-    </div>
+      <SkillName></SkillName>
+      <Skills></Skills>
+      <ContactMeName/>
+      <Contact/>
+  
   </section>
   );
 }
