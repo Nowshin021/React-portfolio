@@ -1,0 +1,16 @@
+/**NAV bar**/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-item{
+    color:rgb(245, 205, 129);
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+
+
