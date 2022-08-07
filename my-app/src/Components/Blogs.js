@@ -16,9 +16,9 @@ function Blogs() {
     <Container className='mt-5 mb-5'>
         <Row className='align-items-center'>
         <Col className='col-lg-4 col-md-6 col-sm-12 mt-2'>
-                <Card border="info" style={{ height: 'auto' }}>
+                <Card border="info" style={{ width: 'auto' }}>
                 <Card.Img variant="cover" src={w1} alt="blog" />
-                <Card.ImgOverlay className='overlay'>
+                <Card.ImgOverlay className='overlay bg-info'>
                     <Container className='d-flex justify-content-center align-items-center mt-5 '>
                         <div>
                         <h1 className='text-lg'><BiAtom/></h1>
@@ -37,9 +37,9 @@ function Blogs() {
                 </Card>
             </Col>
             <Col className='col-lg-4 col-md-6 col-sm-12 mt-2'>
-                <Card border="info" style={{ height: 'auto' }}>
+                <Card border="info" style={{ width: 'auto' }}>
                 <Card.Img variant="cover" src={web2} alt="blog" />
-                <Card.ImgOverlay className='overlay'>
+                <Card.ImgOverlay className='overlay bg-info'>
                     <Container className='d-flex justify-content-center align-items-center mt-5 '>
                         <div>
                         <h1 className='text-lg'><FaPython/></h1>
@@ -58,9 +58,9 @@ function Blogs() {
                 </Card>
             </Col>
             <Col className='col-lg-4 col-md-6 col-sm-12 mt-2'>
-                <Card border="info" style={{ height: 'auto' }}>
+                <Card border="info" style={{ width: 'auto' }}>
                 <Card.Img variant="cover" src={web3} alt="blog" />
-                <Card.ImgOverlay className='overlay'>
+                <Card.ImgOverlay className='overlay bg-info'>
                     <Container className='d-flex justify-content-center align-items-center mt-5 '>
                         <div>
                         <h1 className='text-lg'><SiBootstrap/></h1>
@@ -78,6 +78,7 @@ function Blogs() {
                 </Card.ImgOverlay>
                 </Card>
             </Col>
+            
         </Row>
 
     </Container>

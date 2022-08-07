@@ -21,16 +21,20 @@ body{
 .card{
     width: auto;
     transition:transform 0.5s ease-in-out;
+ 
 }
 .card:hover{
     
     transform:scale(1.02);
 }
 
+.cardImage {
+    object-fit: cover;
+    
+    }
 
 .overlay{
     color: white;
-    background-color: rgb(15, 165, 224);
     opacity: 0;
     transition: .8s ease;
 }
