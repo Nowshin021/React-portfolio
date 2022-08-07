@@ -18,12 +18,17 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Achievements from './Components/Achievements';
+import AchievementsName from './Components/AchievementsName';
 function App() {
   return (
   <section>
    <Navarea/>
    <Header></Header>
+   <AchievementsName></AchievementsName>
+   <Achievements></Achievements>
     <Welcome></Welcome>
+  
     <Blogs></Blogs> 
     <SkillName></SkillName>
     <Skills></Skills>

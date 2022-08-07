@@ -5,6 +5,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+p{
+    font-size: 18px;
+}
 .nav-item{
     color:rgb(255, 255, 255);
     font-size: 20px;
@@ -44,3 +47,44 @@ body{
     opacity: 1;
   }
 
+#custom-icon{
+    color: aqua;
+}
+
+.hover-button{
+    transition: all 0.8s;
+    cursor: pointer;
+    
+  
+}
+
+
+.hover-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+  }
+  
+  .hover-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .hover-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .hover-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.container-lg{
+    background-color: rgb(106, 215, 251);
+}

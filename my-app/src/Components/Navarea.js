@@ -12,9 +12,9 @@ function Navarea() {
         <Nav className="me-auto text-white">
           <Nav.Link className="nav-item" href="/">Home</Nav.Link>
           <Nav.Link className="nav-item" href="/projects">Projects</Nav.Link>
-          <Nav.Link className="nav-item" href="#about">Skills</Nav.Link>
-          <Nav.Link className="nav-item" href="#login">Publications</Nav.Link>
-          <Nav.Link className="nav-item" href="#login">Contact</Nav.Link>
+          <Nav.Link className="nav-item" href="/skillst">Skills</Nav.Link>
+          <Nav.Link className="nav-item" href="/publications">Publications</Nav.Link>
+          <Nav.Link className="nav-item" href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

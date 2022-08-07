@@ -45,12 +45,12 @@ function Skills() {
             </Col>
             <Col className='col-lg-3 col-md-3 col-sm-6'>
             <Card className='card-lg bg-info mt-2' >
-                <Card.Body className='text-white text-center text-lg'>ML</Card.Body>
+                <Card.Body className='text-white text-center text-lg'>Flask</Card.Body>
             </Card>
             </Col>
             <Col className='col-lg-3 col-md-3 col-sm-6'>
             <Card className='card-lg bg-info mt-2' >
-                <Card.Body className='text-white text-center text-lg'>AI</Card.Body>
+                <Card.Body className='text-white text-center text-lg'>MySQL</Card.Body>
             </Card>
             </Col>
         </Row>

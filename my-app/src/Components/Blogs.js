@@ -26,9 +26,10 @@ function Blogs() {
                         <Card.Text className='mt-2'>
                         Beginner Friendly React Food Recipie App with Api fetching and valina CSS
                         </Card.Text>
-                        <Container className='d-flex justify-content-between'>
-                        <Card.Link className='text-white' href="#">Code</Card.Link>
-                        <Card.Link className='text-white' href="#">Watch live</Card.Link>
+                        <Container className='d-flex justify-content-between mt-5'>
+                        
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
                         </Container>
                         </div>
 
@@ -47,9 +48,10 @@ function Blogs() {
                         <Card.Text className='mt-2'>
                          Django Blogsite with CRUD oparation and Beautifull UI
                         </Card.Text>
-                        <Container className='d-flex justify-content-between'>
-                        <Card.Link className='text-white' href="#">Code</Card.Link>
-                        <Card.Link className='text-white' href="#">Watch live</Card.Link>
+                        <Container className='d-flex justify-content-between mt-5'>
+                            
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
                         </Container>
                         </div>
 
@@ -68,9 +70,9 @@ function Blogs() {
                         <Card.Text className='mt-2'>
                         Fully responsive bootstrap website using HTML5, CSS, Bootstrap5
                         </Card.Text>
-                        <Container className='d-flex justify-content-between'>
-                        <Card.Link className='text-white' href="#">Code</Card.Link>
-                        <Card.Link className='text-white' href="#">Watch live</Card.Link>
+                        <Container className='d-flex justify-content-between mt-5'>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
                         </Container>
                         </div>
 
@@ -80,7 +82,9 @@ function Blogs() {
             </Col>
             
         </Row>
-
+    <Container className='d-flex justify-content-center align-items-center mt-5'>
+    <Button variant="outline-info" className='hover-button'size="lg"><span>View More Prjects </span></Button>
+    </Container>
     </Container>
   )
 }
