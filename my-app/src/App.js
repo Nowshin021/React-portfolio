@@ -9,26 +9,29 @@ import Skills from './Components/Skills';
 import SkillName from './Components/SkillName';
 import Contact from './Components/Contact';
 import ContactMeName from './Components/ContactMeName';
+import Publications from './Components/Publications';
+import PublicationName from './Components/PublicationName';
+import Footer from './Components/Footer';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 function App() {
   return (
   <section>
-    <header>
-      <div>
-        <Navarea/>
-      </div>
-      <div>
-        <Header></Header>
-      </div>
-    </header>
-
-  
-      <Welcome></Welcome>
-      <Blogs></Blogs>
-      <SkillName></SkillName>
-      <Skills></Skills>
-      <ContactMeName/>
-      <Contact/>
-  
+   <Navarea/>
+   <Header></Header>
+    <Welcome></Welcome>
+    <Blogs></Blogs> 
+    <SkillName></SkillName>
+    <Skills></Skills>
+    <PublicationName/>
+    <Publications/>
+    <ContactMeName/>
+    <Contact/>
+    <Footer/>
   </section>
   );
 }
