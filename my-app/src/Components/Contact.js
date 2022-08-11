@@ -28,10 +28,11 @@ function Contact() {
         <Container fluid className='mb-5'>
             <div className='m-5'>
                 <Row className='d-flex justify-content-between align-items-center ml-5 mr-5' >
-                    <Col className='col-lg-4 col-md-12 col-sm-12'>
+                    <Col className='col-lg-4 col-md-12 col-sm-12 col-12 '>
                     <Image className='img-fluid mt-0 w-55 mr-0 ml-5' src={h2} alt="mail" />
                     </Col>  
-                    <Col className='col-lg-8 col-md-12 col-sm-12  mt-5 mb-5'>
+                    
+                    <Col className='col-lg-8 col-md-12  col-sm-12 col-12 mt-5 mb-5'>
                     <Form  ref={form} onSubmit={sendEmail}>
                         <InputGroup className="mb-3 input-form">
                         <Form.Control placeholder="Enter your name" name="name" type="text" />
