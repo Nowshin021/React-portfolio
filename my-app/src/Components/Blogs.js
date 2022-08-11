@@ -11,6 +11,7 @@ import web4 from './images/web4.png';
 import { FaPython } from "react-icons/fa";
 import { BiAtom } from "react-icons/bi";
 import { SiBootstrap } from "react-icons/si";
+import ButtonComponent from './ButtonComponent';
 
 
 function Blogs(props) {
@@ -107,7 +108,7 @@ function Blogs(props) {
             
         </Row>
     <Container className='d-flex justify-content-center align-items-center mt-2 mb-5'>
-    <Button  className='hover-button'variant='outline-light' size="lg"><span>View More Prjects </span></Button>
+    <a href ='#'><ButtonComponent name={'View More Projects'}/></a>
     </Container>
     </Container>
   )
