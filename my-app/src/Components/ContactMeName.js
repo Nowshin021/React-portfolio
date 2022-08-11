@@ -1,16 +1,16 @@
 import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
-import { FcShare } from "react-icons/fc";
+
 function ContactMeName() {
   return (
-    <div>
-      <Container className='mt-5 d-flex justify-content-center align-items-center pt-5 mb-5'>
-        <div>
+    <div id='contact'>
+      <Container className='mt-5 pt-5 d-flex justify-content-center align-items-center pt-5'>
+     
         <h2>Contact Me</h2>
-        </div>
-      
+     
       </Container>
     </div>
+   
   )
 }
 

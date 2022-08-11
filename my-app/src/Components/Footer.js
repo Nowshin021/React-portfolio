@@ -6,10 +6,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
+
 function Footer() {
   return (
     <div>
-      <Container fluid className='mt-5 pt-5 h-100 bg-light'>
+      <Container fluid className='mt-5 pt-5 text-white' style={{ backgroundColor: "#1e5566" }}>
         <Container>
             <Row>
                 <Col className='d-flex justify-content-center align-items-center col-lg-4 col-md-6 col-sm-12 mt-5'>
@@ -22,7 +23,11 @@ function Footer() {
                 <Col className='d-flex justify-content-center align-items-center col-lg-4 col-md-6 col-sm-12 mt-5'>
                     <div>
                         <h5>Important Links</h5>
-                        <h2 className='mr-2 ml-2 text-center'> <FaLinkedin/> <FaFacebook/> <FaGithub/></h2>
+                        <h2 className='mr-2 ml-2 text-center'> <a href="https://www.linkedin.com/in/naziaafrin/"><FaLinkedin/></a>
+                        <a href="#"><FaFacebook/></a>
+                        <a href="https://github.com/Nowshin021"><FaGithub/></a>
+                        
+                        </h2>
                     </div>
                 </Col>
                 <Col className='d-flex justify-content-center align-items-center col-lg-4 col-md-6 col-sm-12 mt-5'>
@@ -32,9 +37,9 @@ function Footer() {
                     </div>
                 </Col>
             </Row>
-            <Container className ='d-flex justify-content-center align-items-center mt-5 b-5'>
+            <Container className ='d-flex justify-content-center align-items-center mt-5 b-5 text-white'>
                 <div>
-                    <p className='text-center text-dark'>Copyright @2022 , Made with love </p>
+                    <p className='text-center'>Copyright @2022 , Made with love </p>
                 </div>
             </Container>
         </Container>

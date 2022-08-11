@@ -12,28 +12,29 @@ import ContactMeName from './Components/ContactMeName';
 import Publications from './Components/Publications';
 import PublicationName from './Components/PublicationName';
 import Footer from './Components/Footer';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 import Achievements from './Components/Achievements';
 import AchievementsName from './Components/AchievementsName';
+
 function App() {
+
+  const mylinks={git:'https://github.com/Nowshin021', linkedin :'https://www.linkedin.com/in/naziaafrin/'};
+  const myprojects ={reactproject:'https://github.com/Nowshin021/demo-app', djangoproject:'https://github.com/Nowshin021/django-blog',dsproject:'https://github.com/Nowshin021/Data-Science-Project-ds_salary-/blob/main/visuals_glassdoor.ipynb',frontendproject:'https://github.com/Nowshin021/education-pro',
+  frontendprojectlive:'https://nowshin021.github.io/education-pro/'};
+  const mypublication={data:'https://www.scitepress.org/PublicationsDetail.aspx?ID=8qJ8R+41KDA=&t=1'};
+
   return (
   <section>
    <Navarea/>
-   <Header></Header>
-   <AchievementsName></AchievementsName>
-   <Achievements></Achievements>
-    <Welcome></Welcome>
+   <Header  mylinks={mylinks}/>
+   <AchievementsName/>
+   <Achievements/>
+    <Welcome/>
   
-    <Blogs></Blogs> 
-    <SkillName></SkillName>
-    <Skills></Skills>
-    <PublicationName/>
-    <Publications/>
+    <Blogs myprojects={myprojects}/>
+    <SkillName/>
+    <Skills/>
+    <PublicationName />
+    <Publications mypublication={mypublication}/>
     <ContactMeName/>
     <Contact/>
     <Footer/>

@@ -1,26 +1,52 @@
 /**NAV bar**/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,100;0,500;1,100&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
 }
-
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0.5rem;
+}
+a:hover{
+    color: #ffffff;
+}
 p{
     font-size: 18px;
+    
+   
 }
+
+
+
 .nav-item{
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 400;
     margin-left: 20px;
     margin-right: 20px;
+    transition:transform 0.7s ease-in-out;
+ 
     
+}
+
+.nav-item:hover{
+    transform:scale(1.02);
+    border-top:3px solid #ffffff;
+    transition:transform 0.7s ease-in-out;
+    
+
 }
 
 .header-logo{
     font-size: 100px;
 }
-
+.header-span{
+    color:#1e5566;
+}
 .card{
     width: auto;
     transition:transform 0.5s ease-in-out;
@@ -31,10 +57,6 @@ p{
     transform:scale(1.02);
 }
 
-.cardImage {
-    object-fit: cover;
-    
-    }
 
 .overlay{
     color: white;
@@ -45,19 +67,26 @@ p{
 
 .card:hover .overlay {
     opacity: 1;
+    text-align: justify;
+   
+    border-width: 5rem;
   }
 
 #custom-icon{
-    color: aqua;
+    color: #1e5566;
 }
 
 .hover-button{
     transition: all 0.8s;
     cursor: pointer;
+    color: #1e5566;
     
   
 }
 
+.hover-button:hover{
+    color: #ffffff;
+}
 
 .hover-button span {
     cursor: pointer;
@@ -73,6 +102,7 @@ p{
     top: 0;
     right: -20px;
     transition: 0.5s;
+    color: white;
   }
   
   .hover-button:hover span {
@@ -82,9 +112,12 @@ p{
   .hover-button:hover span:after {
     opacity: 1;
     right: 0;
+    
   }
 
 
-.container-lg{
-    background-color: rgb(106, 215, 251);
+.input-form{
+    box-sizing: border-box;
+    border-color: #1e5566;
+    border-width: 10rem;
 }
