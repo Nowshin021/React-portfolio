@@ -14,6 +14,8 @@ import PublicationName from './Components/PublicationName';
 import Footer from './Components/Footer';
 import Achievements from './Components/Achievements';
 import AchievementsName from './Components/AchievementsName';
+import Education from './Components/Education';
+import EducationName from './Components/EducationName';
 
 function App() {
 
@@ -33,8 +35,11 @@ function App() {
     <Blogs myprojects={myprojects}/>
     <SkillName/>
     <Skills/>
+    <EducationName/>
+    <Education/>
     <PublicationName />
     <Publications mypublication={mypublication}/>
+   
     <ContactMeName/>
     <Contact/>
     <Footer/>

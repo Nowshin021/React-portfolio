@@ -14,6 +14,7 @@ function Navarea() {
           <Link className="nav-item" to='achievements' smooth={true}>Achievements</Link>
             <Link className="nav-item" to='projects' smooth={true}>Projects</Link>
             <Link className="nav-item" to='skills' smooth={true}>Skills</Link>
+            <Link className="nav-item" to='education' smooth={true}>Education</Link>
             <Link className="nav-item" to='publications' smooth={true}>Publications</Link>
             <Link className="nav-item" to='contact' smooth={true}>Contact</Link>
           </Nav>

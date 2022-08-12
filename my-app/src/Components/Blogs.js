@@ -19,92 +19,61 @@ function Blogs(props) {
   return (
     <Container fluid className='mt-2 mb-5 pb-5'>
         <Row className='align-items-center m-5'>
-        <Col className='col-lg-6 col-md-6 col-sm-12 mt-3'>
-                <Card border="light" style={{ height: 'auto' }}>
-                <Card.Img variant="cover" src={w1} alt="blog" style={{ height: '20rem' }}/>
-                <Card.ImgOverlay className='overlay' style={{ backgroundColor: "#1e5566" }}>
+        <Col className='col-lg-4 col-md-6 col-sm-12 mt-3'>
+                <Card border="dark" style={{ height: 'auto' }}>
+                <Card.Img variant="cover" src={w1} alt="blog" />
+                <Card.Body className='overlay' style={{ backgroundColor: "#1e5566" }}>
                     <Container className='d-flex justify-content-center align-items-center mt-2 '>
                         <div>
-                        <h1 className=''><BiAtom/></h1>
-                        <Card.Title >React Food App with Food API</Card.Title>
-                        <Card.Text className='mt-2'>
-                        Beginner Friendly React Food Recipie App with Api fetching and valina CSS
-                        </Card.Text>
-                        <Container className='d-flex justify-content-between mt-2'>
-                        
-                        <Card.Link className='text-white' href={props.myprojects.reactapp}> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
+                        <h1 className='text-center' style={{fontSize:"2vw"}}><BiAtom/></h1>
+                        <Card.Title style={{fontSize:"1.5vw"}}>React Food App with Food API</Card.Title>
+                        <Container className='d-flex justify-content-between mt-0'>
+                        <Card.Link className='text-white' href={props.myprojects.reactproject}> <Button style={{fontSize:"1vw"}} variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href={props.myprojects.reactprojectlive}> <Button variant="outline-light" style={{fontSize:"1vw"}} size="sm">Live</Button></Card.Link>
                         </Container>
                         </div>
 
                     </Container>
-                </Card.ImgOverlay>
+                </Card.Body>
                 </Card>
             </Col>
-            <Col className='col-lg-6 col-md-6 col-sm-12 mt-3'>
-                <Card border="light" style={{ width: 'auto' }}>
-                <Card.Img variant="cover" src={web2} alt="blog" style={{ height: '20rem' }}/>
-                <Card.ImgOverlay className='overlay ' style={{ backgroundColor: "#1e5566" }}>
+            <Col className='col-lg-4 col-md-6 col-sm-12 mt-3'>
+                <Card border="dark" style={{ width: 'auto' }}>
+                <Card.Img variant="cover" src={web2} alt="blog" />
+                <Card.Body className='overlay ' style={{ backgroundColor: "#1e5566" }}>
                     <Container className='d-flex justify-content-center align-items-center mt-2 '>
-                        <div>
-                        <h1 className=''><FaPython/></h1>
-                        <Card.Title >Django-Blogsite</Card.Title>
-                        <Card.Text className='mt-2'>
-                         Django Blogsite with CRUD oparation and Beautifull UI
-                        </Card.Text>
-                        <Container className='d-flex justify-content-between mt-2'>
-                            
-                        <Card.Link className='text-white' href={props.myprojects.djangoproject}> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
+                    <div>
+                        <h1 className='text-center' style={{fontSize:"2vw"}}><FaPython/></h1>
+                        <Card.Title style={{fontSize:"1.5vw"}}>Django Blogsite with CRUD oparations</Card.Title>
+                        <Container className='d-flex justify-content-between mt-0'>
+                        <Card.Link className='text-white' href={props.myprojects.djangoproject}> <Button style={{fontSize:"1vw"}} variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" style={{fontSize:"1vw"}} size="sm">Live</Button></Card.Link>
                         </Container>
-                        </div>
+                    </div>
 
                     </Container>
-                </Card.ImgOverlay>
+                </Card.Body>
                 </Card>
             </Col>
-            <Col className='col-lg-6 col-md-6 col-sm-12 mt-3'>
-                <Card border="light" style={{ width: 'auto' }}>
-                <Card.Img variant="cover" src={web4} alt="blog" style={{ height: '20rem' }} />
-                <Card.ImgOverlay className='overlay' style={{ backgroundColor: "#1e5566" }}>
+            <Col className='col-lg-4 col-md-6 col-sm-12 mt-3'>
+                <Card border="dark" style={{ width: 'auto' }}>
+                <Card.Img variant="cover" src={web4} alt="blog"  />
+                <Card.Body variant='cover' className='overlay' style={{ backgroundColor: "#1e5566" }}>
                     <Container className='d-flex justify-content-center align-items-center mt-2 '>
-                        <div>
-                        <h1 className=''><FaPython/></h1>
-                        <Card.Title className='text-sm' >Exploratory Data Analysis on Large Dataset</Card.Title>
-                        <Card.Text className='mt-2'>
-                        A Data scrience related project : EDA Data science jobs across USA
-                        </Card.Text>
-                        <Container className='d-flex justify-content-between mt-2'>
-                        <Card.Link className='text-white' href={props.myprojects.dsproject}> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href={props.myprojects.dsproject}> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
+                    <div>
+                        <h1 className='text-center' style={{fontSize:"2vw"}}><FaPython/></h1>
+                        <Card.Title style={{fontSize:"1.5vw"}}>Exploratory Data Analysis with Numpy and Pandas</Card.Title>
+                        <Container className='d-flex justify-content-between mt-0'>
+                        <Card.Link className='text-white' href={props.myprojects.dsproject}> <Button style={{fontSize:"1vw"}} variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" style={{fontSize:"1vw"}} size="sm">Live</Button></Card.Link>
                         </Container>
-                        </div>
+                    </div>
 
                     </Container>
-                </Card.ImgOverlay>
+                </Card.Body>
                 </Card>
             </Col>
-            <Col className='col-lg-6 col-md-6 col-sm-12 mt-3'>
-                <Card border="light" style={{ width: 'auto' }}>
-                <Card.Img variant="cover" src={web3} alt="blog" style={{ height: '20rem' }} />
-                <Card.ImgOverlay className='overlay' style={{ backgroundColor: "#1e5566" }}>
-                    <Container className='d-flex justify-content-center align-items-center mt-2 '>
-                        <div>
-                        <h1 className=''><SiBootstrap/></h1>
-                        <Card.Title className='text-sm' >bootstrap Responisve website</Card.Title>
-                        <Card.Text className='mt-2'>
-                        Fully responsive bootstrap website using HTML5, CSS, Bootstrap5
-                        </Card.Text>
-                        <Container className='d-flex justify-content-between mt-2'>
-                        <Card.Link className='text-white' href={props.myprojects.frontendproject}> <Button variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href={props.myprojects.frontendprojectlive}> <Button variant="outline-light" size="sm">Live</Button></Card.Link>
-                        </Container>
-                        </div>
-
-                    </Container>
-                </Card.ImgOverlay>
-                </Card>
-            </Col>
+       
             
         </Row>
     <Container className='d-flex justify-content-center align-items-center mt-2 mb-5'>

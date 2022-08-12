@@ -35,13 +35,13 @@ function Contact() {
                     <Col className='col-lg-8 col-md-12  col-sm-12 col-12 mt-5 mb-5'>
                     <Form  ref={form} onSubmit={sendEmail}>
                         <InputGroup className="mb-3 input-form">
-                        <Form.Control placeholder="Enter your name" name="name" type="text" />
+                        <Form.Control placeholder="Enter your name" name="name" type="text"  required/>
                         </InputGroup>
                         <InputGroup className="mb-3 input-form">
-                        <Form.Control placeholder="Enter your email"  name="email" type="email" />
+                        <Form.Control placeholder="Enter your email"  name="email" type="email" required />
                         </InputGroup>
                         <InputGroup className="mb-3 input-form">
-                        <Form.Control as="textarea" style={{ height: 300 }}  placeholder="Enter your Message"  name="message" type="text" />
+                        <Form.Control as="textarea" style={{ height: 300 }}  placeholder="Enter your Message"  name="message" type="text" required />
                         </InputGroup>
                         <InputGroup className='mb-3 input-form'><Button variant="outline-dark btn-lg" type="submit">Send Message</Button></InputGroup>
                     </Form>
