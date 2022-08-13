@@ -27,7 +27,7 @@ function App() {
    <Header  mylinks={mylinks}/>
    <SectionHeader data={{headername:'Programming Achievements', id:'achievements'}}/>
    <Achievements/>
-   <SectionHeader data={{headername:'Projects', id:'projects'}}/>
+   <SectionHeader data={{headername:'Projects I have made', id:'projects'}}/>
   
     <Blogs myprojects={myprojects}/>
     <ViewMore mylinks={mylinks}/>

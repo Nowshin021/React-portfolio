@@ -15,7 +15,7 @@ function Header(props) {
     <Container className="d-flex justify-content-center align-items-center mr-5 ml-5 text-white">
       <Container className='mt-5'>
         <h1 className='text-center mt-5 text-lg larger'>Nazia Afrin</h1>
-        <h3 className='text-center text-lg'>Web Developper</h3>
+        <h3 className='text-center text-lg'>Web Developer</h3>
         <p className='text-center m-5 text-lg'>Hi ! I'm Nazia Afrin.
         My love for programming and passion for learning is what drives me to take on challenges. <br></br>
         I'm a quick learner with excellent English communication skills. I also have experience in competitive programming. 

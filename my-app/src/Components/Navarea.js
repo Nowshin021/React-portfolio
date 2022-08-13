@@ -9,7 +9,7 @@ function Navarea() {
       <Container>
         <Navbar.Brand className="nav-item active text-lg" href="/">React-Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" >
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto text-white">
           <Link className="nav-item" to='achievements' smooth={true}>Achievements</Link>
             <Link className="nav-item" to='projects' smooth={true}>Projects</Link>
