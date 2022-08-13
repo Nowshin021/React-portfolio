@@ -20,8 +20,8 @@ function Header(props) {
         My love for programming and passion for learning is what drives me to take on challenges. <br></br>
         I'm a quick learner with excellent English communication skills. I also have experience in competitive programming. 
         Welcome to my portfolio web-app made with React-JS. Happy visiting !</p>
-        <Container className="d-flex justify-content-center align-items-center mb-5">
-        <a href={props.mylinks.linkedin}><Button variant="outline-light m-2" className='button'><span>Hire Me</span></Button></a>
+        <Container className="d-flex justify-content-center align-items-center mb-5 ">
+        <a href={props.mylinks.linkedin}><Button variant="outline-light m-2 " className='button'><span>Hire Me</span></Button></a>
         <Button variant="outline-light m-2" className='button'>Download CV</Button>
         </Container>
         <Container className="d-flex justify-content-center align-items-center mb-5">

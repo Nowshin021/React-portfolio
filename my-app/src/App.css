@@ -69,9 +69,7 @@ a:hover{
     box-shadow:0 5px 8px 0 rgb(21, 68, 82);
 }
 
-.text-responsive {
-    font-size: calc(100% + 1vw + 1vh);
-  }
+
 .overlay{
   position: absolute;
   bottom: 0;
@@ -83,9 +81,10 @@ a:hover{
   height: 0px;
   transition: .6s ease;
   color: #ffffff;
-    visibility: hidden;
-    border-radius: 5px;
+  visibility: hidden;
+  border-radius: 5px;
 }
+
 
 
 .card:hover .overlay {
@@ -95,7 +94,6 @@ a:hover{
 
 .overlay .card-container{
     color: white;
-    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -154,3 +152,15 @@ a:hover{
     border-color: #1e5566;
     border-width: 10rem;
 }
+
+@media (max-width: 550px) {
+   
+    .overlay h5{
+        font-size: 10px;
+    }
+    .overlay .card-button{
+        font-size: 9px;
+    }
+
+  }
+  

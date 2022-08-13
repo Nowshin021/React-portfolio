@@ -20,56 +20,49 @@ function Blogs(props) {
     <Container fluid className='mt-2 mb-5 pb-5'>
         <Row className='align-items-center m-5'>
         <Col className='col-lg-4 col-md-6 col-sm-12 mt-3'>
-                <Card border="dark" style={{ height: 'auto' }}>
+                <Card border="dark" >
                 <Card.Img variant="cover" src={w1} alt="blog" />
                 <Card.Body className='overlay' style={{ backgroundColor: "#1e5566" }}>
-                    <Container className='d-flex justify-content-center align-items-center mt-2 '>
-                        <div>
-                        <h1 className='text-center' style={{fontSize:"2vw"}}><BiAtom/></h1>
-                        <Card.Title style={{fontSize:"1.5vw"}}>React Food App with Food API</Card.Title>
+                    
+                        <h1 className='text-center  card-button' ><BiAtom/></h1>
+                        <h5 className='text-center' >React Food App with Food API</h5>
                         <Container className='d-flex justify-content-between mt-0'>
-                        <Card.Link className='text-white' href={props.myprojects.reactproject}> <Button style={{fontSize:"1vw"}} variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href={props.myprojects.reactprojectlive}> <Button variant="outline-light" style={{fontSize:"1vw"}} size="sm">Live</Button></Card.Link>
+                        <Card.Link className='text-white' href={props.myprojects.reactproject}> <Button className='card-button'  variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href={props.myprojects.reactprojectlive}> <Button className='card-button' variant="outline-light"  size="sm">Live</Button></Card.Link>
                         </Container>
-                        </div>
-
-                    </Container>
+                       
                 </Card.Body>
                 </Card>
             </Col>
-            <Col className='col-lg-4 col-md-6 col-sm-12 mt-3'>
+            <Col className='col-lg-4 col-md-6 col-sm-12 mt-3 '>
                 <Card border="dark" style={{ width: 'auto' }}>
                 <Card.Img variant="cover" src={web2} alt="blog" />
-                <Card.Body className='overlay ' style={{ backgroundColor: "#1e5566" }}>
-                    <Container className='d-flex justify-content-center align-items-center mt-2 '>
-                    <div>
-                        <h1 className='text-center' style={{fontSize:"2vw"}}><FaPython/></h1>
-                        <Card.Title style={{fontSize:"1.5vw"}}>Django Blogsite with CRUD oparations</Card.Title>
+                <Card.Body className='overlay' style={{ backgroundColor: "#1e5566" }}>
+                    
+                        <h1 className='text-center card-button' ><FaPython/></h1>
+                        <h5 className='text-center' >Django Blogsite with CRUD oparations</h5>
                         <Container className='d-flex justify-content-between mt-0'>
-                        <Card.Link className='text-white' href={props.myprojects.djangoproject}> <Button style={{fontSize:"1vw"}} variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" style={{fontSize:"1vw"}} size="sm">Live</Button></Card.Link>
+                        <Card.Link className='text-white' href={props.myprojects.djangoproject}> <Button className='card-button'  variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" className='card-button'  size="sm">Live</Button></Card.Link>
                         </Container>
-                    </div>
-
-                    </Container>
+                   
                 </Card.Body>
                 </Card>
             </Col>
-            <Col className='col-lg-4 col-md-6 col-sm-12 mt-3'>
+            <Col className='col-lg-4 col-md-6 col-sm-12 mt-3 '>
                 <Card border="dark" style={{ width: 'auto' }}>
                 <Card.Img variant="cover" src={web4} alt="blog"  />
                 <Card.Body variant='cover' className='overlay' style={{ backgroundColor: "#1e5566" }}>
-                    <Container className='d-flex justify-content-center align-items-center mt-2 '>
-                    <div>
-                        <h1 className='text-center' style={{fontSize:"2vw"}}><FaPython/></h1>
-                        <Card.Title style={{fontSize:"1.5vw"}}>Exploratory Data Analysis with Numpy and Pandas</Card.Title>
+                    
+                        <h1 className='text-center card-button' ><FaPython/></h1>
+                        <h5 className='text-center' >Exploratory Data Analysis with Numpy and Pandas</h5>
                         <Container className='d-flex justify-content-between mt-0'>
-                        <Card.Link className='text-white' href={props.myprojects.dsproject}> <Button style={{fontSize:"1vw"}} variant="outline-light" size="sm">Code</Button></Card.Link>
-                        <Card.Link className='text-white' href="#"> <Button variant="outline-light" style={{fontSize:"1vw"}} size="sm">Live</Button></Card.Link>
+                        <Card.Link className='text-white ' href={props.myprojects.dsproject}> <Button className='card-button' variant="outline-light" size="sm">Code</Button></Card.Link>
+                        <Card.Link className='text-white ' href="#"> <Button variant="outline-light" className='card-button' size="sm">Live</Button></Card.Link>
                         </Container>
-                    </div>
+                   
 
-                    </Container>
+                    
                 </Card.Body>
                 </Card>
             </Col>
