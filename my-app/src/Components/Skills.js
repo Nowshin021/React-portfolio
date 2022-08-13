@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 function Skills() {
   return (
 <div >
-    <Container fluid className='d-flex justify-content-center align-items-center mb-5'>
+    <Container fluid className='d-flex justify-content-center align-items-center mb-5 pb-5'>
     <div>
         <Row className='mt-2 mr-5 ml-5'>
             <Col className='col-lg-3 col-md-3 col-sm-6'>

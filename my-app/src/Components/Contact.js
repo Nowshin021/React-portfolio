@@ -25,7 +25,8 @@ function Contact() {
   }
   return (
     <div>
-        <Container fluid className='mb-5'>
+      <h5 className='text-center '>Send me a mail if you have any suggestions. Thank you !</h5>
+        <Container fluid className='mb-5 text-white' >
             <div className='m-5'>
                 <Row className='d-flex justify-content-between align-items-center ml-5 mr-5' >
                     <Col className='col-lg-4 col-md-12 col-sm-12 col-12 '>

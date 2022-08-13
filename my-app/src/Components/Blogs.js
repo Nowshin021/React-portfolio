@@ -76,9 +76,7 @@ function Blogs(props) {
        
             
         </Row>
-    <Container className='d-flex justify-content-center align-items-center mt-2 mb-5'>
-    <a href ='#'><ButtonComponent name={'View More Projects'}/></a>
-    </Container>
+    
     </Container>
   )
 }

@@ -14,29 +14,43 @@ a{
 a:hover{
     color: #ffffff;
 }
+.button{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.icon-span{
+    font-size: 100px;
+    color: #27687c;
+}
 
-
-
-
+.larger{
+    font-size: 80px;
+}
 .nav-item{
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 400;
-    margin-left: 20px;
-    margin-right: 20px;
-    transition:transform 0.7s ease-in-out;
- 
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid transparent;
+    transition: 0.5s ease-in-out;
+    
+   
+  
     
 }
-
 .nav-item:hover{
-    transform:scale(1.02);
-    border-top:3px solid #ffffff;
-    transition:transform 0.7s ease-in-out;
-    
-
+   
+    border-top:5px solid #ffffff;
+    padding-top: 2px;
 }
-
+.header-container{
+    background-image: linear-gradient(rgba(30,85,102),rgb(28, 82, 100), rgb(16, 40, 47))
+}
 .header-logo{
     font-size: 100px;
 }
@@ -45,12 +59,14 @@ a:hover{
 }
 .card{
     width: auto;
-    transition:transform 0.5s ease-in-out;
+    box-shadow: border-box;
+    transition: 0.5s ease-in-out;
  
 }
 .card:hover{
     
     transform:scale(1.02);
+    box-shadow:0 5px 8px 0 rgb(21, 68, 82);
 }
 
 .text-responsive {

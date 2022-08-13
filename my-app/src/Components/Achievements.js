@@ -9,7 +9,7 @@ import ps from './images/ps.jpg';
 function Achievements() {
   return (
     <div>
-        <Container fluid  className='d-flex justify-content-center align-items-center mt-5 mb-5 pb-5'>
+        <Container fluid className='d-flex justify-content-center align-items-center mt-5 mb-5 pb-5 gy-5' >
             <Row>
                 <Col className='col-lg-6 col-md-6 col-sm-12'>
                     <Card border="dark" style={{ width: '20rem'}} className='mt-3'>

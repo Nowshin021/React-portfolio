@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div>
-      <Container fluid className='mt-5 pt-5 text-white' style={{ backgroundColor: "#1e5566" }}>
+      <Container fluid className='mt-5 pt-5 text-white pb-5 pb-5' style={{ backgroundColor: "#1e5566" }}>
         <Container>
             <Row>
                 <Col className='d-flex justify-content-center align-items-center col-lg-4 col-md-6 col-sm-12 mt-5'>

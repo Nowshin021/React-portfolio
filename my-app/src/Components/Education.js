@@ -12,7 +12,7 @@ function Education() {
   return (
     <div>
         <Container fluid className='d-flex align-items-center justify-content-center pb-5'>
-            <Row className='m-5'>
+            <Row className='mr-5 ml-5'>
                 <Col className='col-lg-4 col-md-6 col-sm-12 col-12'>
                 <Image className='img-fluid mt-0' src={education} alt="mail" />
                 </Col>
@@ -22,16 +22,15 @@ function Education() {
                     B.Sc. in Computer Science and Engineering, East-West University. CGPA 3.40/4.00</Card.Body>
                 </Card>
                 <Card border='light' className='mb-3'>
-                    <Card.Body><span style={{color :"#356676"}}><h1><FaSchool/></h1>2018 – 2022 </span><br></br>
+                    <Card.Body><span style={{color :"#356676"}}><h1><FaSchool/></h1>2015 – 2017 </span><br></br>
                     Higher Secondary Certificate (HSC), Motijhil Ideal School and College, Dhaka. Science. GPA 5.00/5.00</Card.Body>
                 </Card>
                 <Card border='light' className='mb-3'>
-                    <Card.Body><span style={{color :"#356676"}}><h1><FaSchool/></h1>2018 – 2022 </span> <br></br>
+                    <Card.Body><span style={{color :"#356676"}}><h1><FaSchool/></h1>2015 – 2017 </span> <br></br>
                     Secondary School Certificate (SSC),Motijhil Ideal School and College, Dhaka. Science. GPA 5.00/5.00.</Card.Body>
                 </Card>
                 </Col>
             </Row>
-
         </Container>
 
     </div>
