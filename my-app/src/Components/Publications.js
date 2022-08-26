@@ -16,10 +16,10 @@ function Publications(props) {
                     <Card.Body className='d-flex justify-content-around align-items-center'>
                     <Row>
                         <Col className='col-lg-4 col-md-12 col-sm-12'>
-                        <span className='icon-span m-3'><GoBook/></span>
+                        <span className='icon-span m-3 text-white'><GoBook/></span>
                         </Col>
                         <Col  className='col-lg-8 col-md-12 col-sm-12 col-12'>
-                            <Card.Title style={{color:"#1e5566"}}>
+                            <Card.Title style={{color:"#ffff"}}>
                             MIET –  Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering (LNICST).
                             </Card.Title>
                             <Card.Text>
@@ -35,15 +35,15 @@ function Publications(props) {
                 <Card.Body className='d-flex justify-content-around align-items-center'>
                     <Row>
                         <Col className='col-lg-4 col-md-12 col-sm-12'>
-                        <span className='icon-span m-3'><GoBook/></span>
+                        <span className='icon-span m-3 text-white'><GoBook/></span>
                         </Col>
                         <Col  className='col-lg-8 col-md-12 col-sm-12 col-12'>
-                            <Card.Title style={{color:"#1e5566"}}>
+                            <Card.Title style={{color:"#ffff"}}>
                             DATA 2022 – 11th International Conference on Data Science, Technology and Applications.
                             </Card.Title>
                             <Card.Text>
                             Paper Title: Development of a Text Classification Framework using Transformer-based Embeddings   <br></br>
-                            <Card.Link href={props.mypublication.data} className='text-lg text-success'><BiLinkAlt/>view publications</Card.Link>
+                            <Card.Link href={props.mypublication.data} className='text-lg text-light'><BiLinkAlt/>view publications</Card.Link>
                             </Card.Text>
                            
                         </Col>

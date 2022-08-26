@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 function Navarea() {
   return (
     <div>
-      <Navbar  variant="dark" style={{backgroundColor:"#1e5566"}}expand="lg">
+      <Navbar  variant="dark" style={{backgroundColor:"rgba(71,13,123)"}}expand="lg">
       <Container>
         <Navbar.Brand className="nav-item active text-lg" href="/">React-Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -17,7 +17,7 @@ function Navarea() {
             <Link className="nav-item" to='education' smooth={true}>Education</Link>
             <Link className="nav-item" to='publications' smooth={true}>Publications</Link>
             <Link className="nav-item" to='contact' smooth={true}>Contact</Link>
-            <Link className="nav-item" to='#' smooth={true}>Blog</Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

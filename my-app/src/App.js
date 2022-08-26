@@ -17,7 +17,7 @@ function App() {
 
   const mylinks={git:'https://github.com/Nowshin021', linkedin :'https://www.linkedin.com/in/naziaafrin/'};
   const myprojects ={reactproject:'https://github.com/Nowshin021/demo-app', djangoproject:'https://github.com/Nowshin021/django-blog',dsproject:'https://github.com/Nowshin021/Data-Science-Project-ds_salary-/blob/main/visuals_glassdoor.ipynb',frontendproject:'https://github.com/Nowshin021/education-pro',
-  frontendprojectlive:'https://nowshin021.github.io/education-pro/', reactprojectlive:'https://react-recipie-app-with-food-api.netlify.app/'};
+  frontendprojectlive:'https://nowshin021.github.io/education-pro/', reactprojectlive:'https://react-recipie-app-with-food-api.netlify.app/', dsproject2:'https://github.com/Nowshin021/DS_Real_state_Scratch', dsproject2_live :'https://github.com/Nowshin021/DS_Real_state_Scratch/blob/main/DS_Real_state_Scratch.ipynb'};
   const mypublication={data:'https://www.scitepress.org/PublicationsDetail.aspx?ID=8qJ8R+41KDA=&t=1'};
 
   const data={};

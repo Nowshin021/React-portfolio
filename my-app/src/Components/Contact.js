@@ -9,7 +9,8 @@ import Image from 'react-bootstrap/esm/Image';
 import emailjs from 'emailjs-com';
 import InputGroup from 'react-bootstrap/InputGroup';
 import{ useRef } from 'react';
-import h2 from './images/h2.gif';
+import edu from './images/edu.jpg';
+import phone2 from './images/phone2.png';
 
 function Contact() {
     const form = useRef();
@@ -27,24 +28,24 @@ function Contact() {
     <div>
       <h5 className='text-center '>Send me a mail if you have any suggestions. Thank you !</h5>
         <Container fluid className='mb-5 text-white' >
-            <div className='m-5'>
-                <Row className='d-flex justify-content-between align-items-center ml-5 mr-5' >
+            <div className=''>
+                <Row className='d-flex justify-content-center align-items-center' >
                     <Col className='col-lg-4 col-md-12 col-sm-12 col-12 '>
-                    <Image className='img-fluid mt-0 w-55 mr-0 ml-5' src={h2} alt="mail" />
+                    <Image className='img-fluid' src={phone2} alt="mail" />
                     </Col>  
                     
-                    <Col className='col-lg-8 col-md-12  col-sm-12 col-12 mt-5 mb-5'>
-                    <Form  ref={form} onSubmit={sendEmail}>
+                    <Col className='col-lg-8 col-md-12  col-sm-12 col-12 mt-5 mb-5 text-white'>
+                    <Form  ref={form} onSubmit={sendEmail}className='mt-5'>
                         <InputGroup className="mb-3 input-form">
-                        <Form.Control placeholder="Enter your name" name="name" type="text"  required/>
+                        <Form.Control  placeholder="Enter your name" name="name" type="text" className='custom-contact' required/>
                         </InputGroup>
                         <InputGroup className="mb-3 input-form">
-                        <Form.Control placeholder="Enter your email"  name="email" type="email" required />
+                        <Form.Control placeholder="Enter your email"  name="email" type="email" className='custom-contact' required />
                         </InputGroup>
                         <InputGroup className="mb-3 input-form">
-                        <Form.Control as="textarea" style={{ height: 300 }}  placeholder="Enter your Message"  name="message" type="text" required />
+                        <Form.Control as="textarea" style={{ height: 200 }}  placeholder="Enter your Message" className='custom-contact' name="message" type="text" required />
                         </InputGroup>
-                        <InputGroup className='mb-3 input-form'><Button variant="outline-dark btn-lg" type="submit">Send Message</Button></InputGroup>
+                        <InputGroup className='mb-3 input-form'><Button variant="outline-light btn-sm" type="submit">Send Message</Button></InputGroup>
                     </Form>
                     </Col>
                 </Row>

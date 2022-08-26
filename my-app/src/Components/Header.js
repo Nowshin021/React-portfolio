@@ -16,10 +16,9 @@ function Header(props) {
       <Container className='mt-5'>
         <h1 className='text-center mt-5 text-lg larger'>Nazia Afrin</h1>
         <h3 className='text-center text-lg'>Web Developer</h3>
-        <p className='text-center m-5 text-lg'>Hi ! I'm Nazia Afrin.
-        My love for programming and passion for learning is what drives me to take on challenges. <br></br>
-        I'm a quick learner with excellent English communication skills. I also have experience in competitive programming. 
-        Welcome to my portfolio web-app made with React-JS. Happy visiting !</p>
+        <p className='text-center m-5 text-lg'>Hardworking and passionate job seeker with strong organizational skills eager to secure entry-level
+programming position. Ready to help team achieve company goals. Aim to work for recognized firms
+where I can give my best efforts and expand my knowledge through challenging tasks. </p>
         <Container className="d-flex justify-content-center align-items-center mb-5 ">
         <a href={props.mylinks.linkedin}><Button variant="outline-light m-2 " className='button'><span>Hire Me</span></Button></a>
         <Button variant="outline-light m-2" className='button'>Download CV</Button>

@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/esm/Button'
 
 function ButtonComponent(props) {
   return (
-    <Button variant="outline-dark m-2" className='hover-button' ><span>{props.name}</span></Button>
+    <Button variant="outline-light m-2"  ><span>{props.name}</span></Button>
   )
 }
 
