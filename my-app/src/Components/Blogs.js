@@ -24,7 +24,7 @@ function Blogs(props) {
     <Container fluid className='mt-2 mb-5 pb-5'>
         <Row className='align-items-center m-5'>
         <Col className='col-lg-3 col-md-6 col-sm-12 mt-3'>
-                <Card border="" style={{ width: '18rem' }}>
+                <Card border="" style={{ width: 'auto' }}>
                 <Card.Img src={web7} className='img-fluid'></Card.Img>
                 <Card.Body className='overlay' style={{ backgroundColor: "#470d7b" }}>
                     
@@ -39,7 +39,7 @@ function Blogs(props) {
                 </Card>
             </Col>
             <Col className='col-lg-3 col-md-6 col-sm-12 mt-3 '>
-                <Card border="" style={{ width: '18rem' }}>
+                <Card border="" style={{ width: 'auto' }}>
                 <Card.Img src={web2} className='img-fluid'></Card.Img>
                 <Card.Body className='overlay' style={{ backgroundColor: "#470d7b" }}>
                     
@@ -54,7 +54,7 @@ function Blogs(props) {
                 </Card>
             </Col>
             <Col className='col-lg-3 col-md-6 col-sm-12 mt-3 '>
-                <Card border="" style={{ width: '18rem' }}>
+                <Card border="" style={{ width: 'auto' }}>
                 <Card.Img src={web6} className='img-fluid'></Card.Img>
                 <Card.Body variant='cover' className='overlay' style={{ backgroundColor: "#470d7b" }}>
                     
@@ -71,7 +71,7 @@ function Blogs(props) {
                 </Card>
             </Col>
             <Col className='col-lg-3 col-md-6 col-sm-12 mt-3 '>
-                <Card border="" style={{ width: '18rem' }}>
+                <Card border="" style={{ width: 'auto' }}>
                 <Card.Img src={web4} className='img-fluid'></Card.Img>
                 <Card.Body variant='cover' className='overlay' style={{ backgroundColor: "#470d7b" }}>
                     
